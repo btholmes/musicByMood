@@ -1,0 +1,193 @@
+{
+  "$jason": {
+    "head": {
+      "title": "playlist",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "$pull": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "I Feel Good",
+        "style": {
+          "align": "center",
+          "color": "#F5F5F5",
+          "background": "#2962FF",
+          "font": "HelveticaNeue-CondensedBold"
+        }
+      },
+      "style": {
+        "background": "#F5F5F5",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "align": "center",
+                "padding_top": "50",
+                "spacing": "20"
+              },
+              "components": [
+                {
+                  "type": "image",
+                  "url": "http://previews.123rf.com/images/logotyp/logotyp1510/logotyp151000015/47663524-Headphones-heart-music-Logo-Sound-Stock-Vector-music.jpg",
+                  "style": {
+                    "width": "90",
+                    "height": "90",
+                    "corner_radiud": "20"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "text": "Here are some music to make you feel good",
+              "class": "bold padded",
+              "style": {
+                "align": "center"
+              }
+            },
+            {
+              "type": "horizontal",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "http://www.freeiconspng.com/uploads/green-app-spotify-icon-0.png",
+                  "style": {
+                    "width": "90",
+                    "height": "90",
+                    "corner_radiud": "20"
+                  }
+                },
+                {
+                  "type": "vertical",
+                  "style": {
+                    "spacing": "15"
+                  },
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "view lyrics",
+                      "style": {
+                        "padding_left": "30%",
+                        "color": "#2962FF",
+                        "font": "HelveticaNeue",
+                        "size": "20"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "play music",
+                      "style": {
+                        "padding_left": "30%",
+                        "color": "#2962FF",
+                        "font": "HelveticaNeue",
+                        "size": "20"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "http://www.coolgizmotoys.com/images/2011/08/hbx-0310-pandora-app-de-25131197.jpg",
+                  "style": {
+                    "width": "90",
+                    "height": "90",
+                    "corner_radiud": "20"
+                  }
+                },
+                {
+                  "type": "vertical",
+                  "style": {
+                    "spacing": "15"
+                  },
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "view lyrics",
+                      "style": {
+                        "padding_left": "30%",
+                        "color": "#2962FF",
+                        "font": "HelveticaNeue",
+                        "size": "20"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "play music",
+                      "style": {
+                        "padding_left": "30%",
+                        "color": "#2962FF",
+                        "font": "HelveticaNeue",
+                        "size": "20"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "horizontal",
+              "components": [
+                {
+                  "type": "image",
+                  "url": "http://www.abu-bkr.com/wp-content/uploads/2017/01/get_the_ball_rolling_for_your_video_buy_youtube_views.png",
+                  "style": {
+                    "width": "90",
+                    "height": "90",
+                    "corner_radiud": "20"
+                  }
+                },
+                {
+                  "type": "vertical",
+                  "style": {
+                    "spacing": "20"
+                  },
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "view lyrics",
+                      "style": {
+                        "padding_left": "30%",
+                        "color": "#2962FF",
+                        "font": "HelveticaNeue",
+                        "size": "20"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "play music",
+                      "style": {
+                        "padding_left": "30%",
+                        "color": "#2962FF",
+                        "font": "HelveticaNeue",
+                        "size": "20"
+                      },
+                      "href": {
+                        "url": "https://www.youtube.com/watch?v=vq2nnJ4g6N0",
+                        "view": "web"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

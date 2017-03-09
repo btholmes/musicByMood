@@ -1,0 +1,86 @@
+{
+  "$jason": {
+    "head": {
+      "title": "music",
+      "actions": {
+        "$load": {
+          "type": "$network.request",
+          "options": {
+            "url": "https://www.jasonbase.com/things/n0Mr.json"
+          },
+          "success": {
+            "type": "$render"
+          }
+        }
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "title": "I Feel Good",
+            "style": {
+              "padding": "10",
+              "color": "#F5F5F5",
+              "background": "#2962FF",
+              "font": "HelveticaNeue-CondensedBold"
+            }
+          },
+          "style": {
+            "background": "#F5F5F5",
+            "border": "none"
+          },
+          "sections": [
+            {
+              "items": [
+                {
+                  "type": "vertical",
+                  "style": {
+                    "align": "center",
+                    "padding_top": "100",
+                    "spacing": "20"
+                  },
+                  "components": [
+                    {
+                      "type": "image",
+                      "url": "http://previews.123rf.com/images/logotyp/logotyp1510/logotyp151000015/47663524-Headphones-heart-music-Logo-Sound-Stock-Vector-music.jpg",
+                      "style": {
+                        "width": "90",
+                        "height": "90",
+                        "corner_radiud": "20"
+                      }
+                    },
+                    {
+                      "type": "textfield",
+                      "name": "message",
+                      "placeholder": "how was your day today ?",
+                      "font": "HelveticaNeue",
+                      "align": "center",
+                      "width": "200",
+                      "height": "60",
+                      "autocorrect": "true",
+                      "required": "true",
+                      "autocapitalize": "true",
+                      "spellcheck": "true",
+                      "size": "12"
+                    },
+                    {
+                      "type": "button",
+                      "text": "send",
+                      "style": {
+                        "color": "#F5F5F5",
+                        "background": "#2962FF",
+                        "corner_radius": "30",
+                        "size": "30"
+                      },
+                      "href": {
+                        "url": "https://www.jasonbase.com/things/BwwY.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
